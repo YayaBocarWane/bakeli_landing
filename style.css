@@ -1,0 +1,18 @@
+/* Styles de base pour la navbar */
+.navbar {
+    background-color: #333; /* Couleur de fond de la navbar */
+    display: flex; /* Affiche les liens sur une ligne */
+    justify-content: space-around; /* Espace entre les liens */
+    padding: 1em; /* Espace intérieur */
+}
+
+.nav-link {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    padding: 0.5em; /* Espace autour des liens */
+}
+
+.nav-link:hover {
+    background-color: #555; /* Couleur de fond au survol */
+    border-radius: 5px; /* Coins arrondis */
+}
